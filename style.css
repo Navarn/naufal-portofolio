@@ -1,0 +1,92 @@
+body {
+    display: block;
+    background-image: url('img/bola.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+
+}
+
+.container {
+   margin-left: 15%;
+   margin-top: 15%;
+   display: flex;
+
+    
+}
+.text {
+   text-align: left;
+   margin-bottom: 0px;
+   margin-top: 2px;
+   line-height: 0.4;
+   
+}
+
+.text h3 {
+    font-size: 30px;
+    font-family: "Lora", serif;
+    color: white;
+}
+
+.text h2 {
+    font-size: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.text h1 {
+    font-family: "Montserrat", sans-serif;
+    color:white;
+    text-size-adjust: auto;
+    font-size: 70px;
+}
+
+.button button {
+    margin-top: 5%;
+    background-color: orange;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+
+}
+
+.button button:hover {
+    background-color: azure;
+    color: black;
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 5s;
+}
+
+.pic {
+    margin-left: 250px;
+    
+}
+
+.pic img {
+    width: 200px;
+    height: auto;
+}
+
+.animate__animated.animate__slideInUp {
+    --animation-duration: 5s;
+
+}
+
+.lol {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    height: 150px;
+}
+
+.lol address {
+    color: orange;
+    margin-top: 120px;
+}
